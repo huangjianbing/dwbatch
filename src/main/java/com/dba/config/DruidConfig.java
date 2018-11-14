@@ -35,7 +35,6 @@ public class DruidConfig {
         statFilter.setLogSlowSql(true);
         //是否将日志合并起来
         statFilter.setMergeSql(true);
-        int a=2;
         return  statFilter;
 
     }
