@@ -35,8 +35,9 @@ public class DruidConfig {
         statFilter.setLogSlowSql(true);
         //是否将日志合并起来
         statFilter.setMergeSql(true);
-        String a="1";
+        int a=2;
         return  statFilter;
+
     }
     //这是配置druid的监控
     @Bean
